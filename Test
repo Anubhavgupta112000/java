@@ -1,0 +1,20 @@
+class Test
+    {
+        int length,breadth,depth;
+        Test(int l,int b,int d)
+        {
+            length=l;
+            breadth=b;
+            depth=d;
+        }
+        int volume()
+        {
+            return length*breadth*depth;
+        }
+        public static void main(String args[])
+        {
+            Test obj=new Test(6,5,4);
+            int vol;
+            vol=obj.volume();
+            System.out.println("Volume is"+vol);
+        }
